@@ -1,8 +1,9 @@
+
 public class Nodo {
     private Computer value;
     private Nodo next;
 
-    public Nodo(Computer value) {
+    public Nodo(Computer value, Nodo next) {
         this.value = value;
         this.next = null;
     }
@@ -15,11 +16,11 @@ public class Nodo {
         return next;
     }
 
-    public void setNext(Nodo next) {
-        this.next = next;
+    public void setValue(Computer value) {
+        this.value = value;
     }
 
-    public String toString() {
-        return value.toString();
+    public void setNext(Nodo next) {
+        this.next = next;
     }
 }

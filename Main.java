@@ -8,6 +8,6 @@ public class Main {
         lista.inserimentoOrdinato(new Computer("Apple", "M1", 16));
 
         System.out.println("Lista ordinata per RAM (crescente):");
-        System.out.println(lista);
+        lista.stampa();
     }
 }
