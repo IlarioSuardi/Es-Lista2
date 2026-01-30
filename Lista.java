@@ -143,7 +143,6 @@ public class Lista {
         corrente.setNext(nuovo);
     }
 
-
     public void stampa() {
         Nodo corrente = head;
         while (corrente != null) {

@@ -9,14 +9,10 @@ public class Computer implements Comparable<Computer> {
         this.ram = ram;
     }
 
-    public int getRam() {
-        return ram;
-    }
-
-    public int compareTo(Computer other) {
-        if(this.ram < other.ram) {
+    public int compareTo(Computer c) {
+        if(this.ram < c.ram) {
             return -1;
-        } else if(this.ram > other.ram) {
+        } else if(this.ram > c.ram) {
             return 1;
         } else {
             return 0;
