@@ -20,6 +20,6 @@ public class Computer implements Comparable<Computer> {
     }
 
 public String toString() {
-        return "MARCA:" + marca + ", PROCESSORE: " + processore + ", RAM: " + ram + "GB";
+        return "MARCA:" + marca + ", PROCESSORE:" + processore + ", RAM:" + ram + "GB";
     }
 }
